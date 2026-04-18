@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat with Your Data</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="page">
+    <header class="page-header">
+      <h1>Chat with Your Data</h1>
+      <p class="subtitle">
+        Upload a CSV, ask a question in plain English, and see the answer your backend
+        computes with pandas.
+      </p>
+    </header>
+
+    <section class="card card--form" aria-labelledby="form-heading">
+      <h2 id="form-heading" class="card-title">Ask a question</h2>
+
+      <form id="analyze-form" action="#" method="post" novalidate>
+        <div class="field">
+          <label for="file">CSV file</label>
+          <input type="file" id="file" name="file" accept=".csv,text/csv" required />
+        </div>
+
+        <div class="field">
+          <label for="question">Your question</label>
+          <input
+            type="text"
+            id="question"
+            name="question"
+            placeholder="e.g. What is the average Sales by Region?"
+            autocomplete="off"
+            required
+          />
+        </div>
+
+        <p class="examples-label">Try an example (click to fill in):</p>
+        <div class="examples" role="group" aria-label="Example questions">
+          <button type="button" class="example-chip" data-question="What is the average Sales by Region?">
+            Average Sales by Region
+          </button>
+          <button type="button" class="example-chip" data-question="Which Region has the highest total Sales?">
+            Highest total Sales by Region
+          </button>
+          <button type="button" class="example-chip" data-question="What is the total Profit by Category?">
+            Total Profit by Category
+          </button>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" id="submit-btn" class="btn-primary">
+            <span class="btn-spinner" id="btn-spinner" aria-hidden="true"></span>
+            <span class="btn-text" id="btn-text">Analyze</span>
+          </button>
+          <p class="loading-hint hidden" id="loading-hint" role="status" aria-live="polite">
+            Analyzing your data…
+          </p>
+        </div>
+      </form>
+
+      <p class="muted footnote">
+        Sends <code>POST /analyze</code> with FormData fields <code>question</code> and <code>file</code>.
+      </p>
+    </section>
+
+    <section class="card results-card hidden" id="results" aria-labelledby="results-heading">
+      <h2 id="results-heading" class="card-title card-title--results">Results</h2>
+
+      <div class="result-block hidden" id="question-area">
+        <h3 class="result-label">Question</h3>
+        <p class="result-value" id="question-display"></p>
+      </div>
+
+      <div class="result-block hidden" id="error-area">
+        <h3 class="result-label result-label--error">Error message</h3>
+        <div class="error-box" id="error-text"></div>
+      </div>
+
+      <div class="result-block hidden" id="result-area">
+        <h3 class="result-label">Final result</h3>
+        <pre class="code-block" id="final-result"></pre>
+      </div>
+
+      <div class="result-block hidden" id="code-area">
+        <h3 class="result-label">Generated code</h3>
+        <pre class="code-block code-block--python" id="generated-code"></pre>
+      </div>
+    </section>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
