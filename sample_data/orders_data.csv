@@ -1,0 +1,8 @@
+OrderID,Customer,Amount,Status
+101,A,120.5,Shipped
+102,B,75.0,Pending
+103,A,200.0,Shipped
+104,C,50.0,Cancelled
+105,B,130.0,Shipped
+106,D,220.0,Pending
+107,A,90.0,Shipped

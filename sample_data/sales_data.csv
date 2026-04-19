@@ -1,0 +1,9 @@
+Region,Sales,Profit,Category
+West,200,50,Tech
+East,150,40,Furniture
+West,300,80,Tech
+South,250,60,Office
+East,180,45,Office
+North,220,55,Tech
+South,270,65,Furniture
+West,310,90,Office
