@@ -27,17 +27,26 @@ def add_cors_headers(response: Any) -> Any:
 import numpy as np
 import pandas as pd
 
+import numpy as np
+import pandas as pd
+from typing import Any
+
 def _to_json_safe(value: Any) -> Any:
     if isinstance(value, pd.DataFrame):
-        return value.to_dict(orient="records")
+        return value.applymap(_to_json_safe).to_dict(orient="records")
+
     if isinstance(value, pd.Series):
-        return [_to_json_safe(v) for v in value.tolist()]
+        return {str(k): _to_json_safe(v) for k, v in value.to_dict().items()}
+
     if isinstance(value, dict):
         return {str(k): _to_json_safe(v) for k, v in value.items()}
+
     if isinstance(value, (list, tuple)):
         return [_to_json_safe(v) for v in value]
-    if isinstance(value, np.generic):  # handles np.int64, np.float64
+
+    if isinstance(value, np.generic):
         return value.item()
+
     return value
 
 

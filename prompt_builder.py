@@ -49,6 +49,9 @@ Instructions:
 8. For grouped answers, return a pandas Series or dict with the group labels preserved.
 9. Do not use f-strings, .format(), or any string interpolation.
 10. Do not return raw arrays, .values, or unlabeled lists.
+11. When the user asks to rank, sort, group, or compare values, inspect the column names, dtypes, and preview rows to choose the most relevant categorical and numeric columns.
+12. If multiple columns could fit, choose the most likely one based on the question.
+13. Preserve labels in the output when ranking or grouping.
 """
     # strip() removes the leading/trailing blank line from the triple-quoted string.
     return prompt.strip()
