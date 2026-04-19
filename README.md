@@ -16,7 +16,7 @@ Users can:
 
 ## 📂 Sample Data
 
-We provide example CSV files in the `sample_data/` folder for testing.
+We provide example CSV files in the `sample_data` folder for testing.
 
 Example questions:
 
