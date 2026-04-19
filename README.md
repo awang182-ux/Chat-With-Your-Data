@@ -1,12 +1,12 @@
 ## Chat With Your Data
 A web application that allows users to upload a CSV file and ask natural language questions about their data. The system uses a Large Language Model (LLM) to generate Pandas code, executes it safely, and returns the result.
 
-## Demo:
+## Demo
 Live Website: https://chat-with-your-data-2arw.onrender.com
 
 GitHub Repo: https://github.com/awang182-ux/Chat-With-Your-Data
 
-## Overview:
+## Overview
 The system uses a Large Language Model (LLM) to generate Pandas code, executes it safely, and returns the result.
 
 Users can:
