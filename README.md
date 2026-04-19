@@ -19,9 +19,21 @@ Users can:
 We provide example CSV files in the `sample_data/` folder for testing.
 
 Example questions:
+
+Sales Data
 - What is the average Sales by Region?
-- Which Customer spent the most?
+- Which Region has the highest total Sales?
+- Which Region has the highest average Profit?
+
+Student Data
 - What is the average GPA by major?
+- What is the average GPA by major?
+- Rank GPA from Highest to Lowest
+
+Orders Data
+- What is the total Amount?
+- What is the total Amount by Customer?
+- Which Customer spent the most?
 
 ## ⚙️ How It Works
 
