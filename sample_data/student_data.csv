@@ -1,8 +1,121 @@
-Name,Major,GPA,Credits
-Alice,CS,3.8,120
-Bob,Math,3.2,110
-Charlie,CS,3.5,115
-David,Physics,3.9,130
-Eva,Math,3.1,105
-Frank,CS,3.6,118
-Grace,Physics,3.7,125
+student_id,first_name,last_name,age,gender,major,grade_level,gpa,credits_completed,attendance_pct,scholarship,club,advisor,enrollment_date,status
+STU-3001,Liam,Jones,19,Male,Business,Senior,1.84,20,100,No,Drama,Dr. Adams,2023-04-17,Probation
+STU-3002,James,Smith,22,Non-binary,Psychology,Junior,1.54,64,94,No,Chess Club,Dr. Evans,2022-12-30,Active
+STU-3003,Linda,Miller,22,Non-binary,Psychology,Junior,1.77,31,66,No,Basketball,Dr. Green,2022-10-22,Active
+STU-3004,Linda,Davis,21,Female,Data Science,Freshman,2.43,84,85,No,Debate Team,Dr. Davis,2022-09-16,Probation
+STU-3005,Liam,Garcia,23,Male,Art,Senior,2.88,13,63,No,Drama,Dr. Evans,2021-02-12,Graduated
+STU-3006,Isabella,White,19,Female,Psychology,Freshman,3.8,127,74,No,Debate Team,Dr. Foster,2022-02-26,Graduated
+STU-3007,Isabella,Taylor,19,Male,Business,Sophomore,2.91,130,62,No,None,Dr. Adams,2022-04-05,Active
+STU-3008,Richard,Thompson,24,Female,Mathematics,Sophomore,2.91,120,96,No,Debate Team,Dr. Evans,2022-07-10,Active
+STU-3009,David,Harris,24,Non-binary,Mathematics,Junior,1.74,21,74,No,Chess Club,Dr. Foster,2022-02-11,Probation
+STU-3010,Jessica,Garcia,22,Non-binary,Mathematics,Freshman,2.73,60,82,No,Basketball,Dr. Green,2021-12-18,Active
+STU-3011,Emma,Jones,21,Non-binary,Mathematics,Junior,1.71,103,69,No,Drama,Dr. Adams,2021-02-04,Active
+STU-3012,William,Brown,20,Male,Data Science,Sophomore,3.86,109,88,Yes,None,Dr. Davis,2023-06-16,Probation
+STU-3013,John,Harris,20,Non-binary,Biology,Senior,1.76,82,65,No,Chess Club,Dr. Clark,2022-11-26,Probation
+STU-3014,Thomas,Garcia,19,Non-binary,Mathematics,Sophomore,3.45,85,95,No,Robotics,Dr. Clark,2022-04-09,Active
+STU-3015,William,Jackson,19,Female,Art,Freshman,2.73,67,64,No,Drama,Dr. Clark,2021-12-19,Probation
+STU-3016,Robert,Anderson,21,Male,Mathematics,Junior,2.98,25,72,No,None,Dr. Green,2022-06-06,Probation
+STU-3017,David,Harris,19,Non-binary,Business,Senior,2.34,50,98,No,Drama,Dr. Brown,2022-10-25,Active
+STU-3018,Emma,Davis,21,Female,Mathematics,Junior,2.23,85,100,No,None,Dr. Clark,2021-03-22,Graduated
+STU-3019,Noah,Thompson,19,Male,Art,Sophomore,2.0,99,94,No,Coding Club,Dr. Green,2022-03-20,Active
+STU-3020,Robert,Anderson,23,Male,Psychology,Sophomore,3.55,75,86,Yes,None,Dr. Green,2022-09-12,Active
+STU-3021,Richard,Thompson,21,Non-binary,Mathematics,Freshman,2.62,86,98,No,Drama,Dr. Foster,2021-01-22,Active
+STU-3022,Lisa,Johnson,19,Non-binary,Mathematics,Junior,3.42,94,82,No,None,Dr. Adams,2020-08-22,Active
+STU-3023,Karen,White,23,Non-binary,Business,Senior,2.15,78,92,No,Drama,Dr. Davis,2023-03-07,Graduated
+STU-3024,Sarah,Brown,20,Female,Mathematics,Freshman,3.23,15,69,No,Debate Team,Dr. Green,2021-05-18,Active
+STU-3025,Thomas,Lee,24,Female,Art,Freshman,2.28,38,89,No,Coding Club,Dr. Foster,2023-02-13,Active
+STU-3026,Patricia,Smith,24,Female,Data Science,Sophomore,1.67,102,62,No,Soccer,Dr. Evans,2021-07-24,Graduated
+STU-3027,Linda,Moore,21,Non-binary,Mechanical Engineering,Sophomore,1.9,71,95,No,None,Dr. Davis,2020-09-29,Graduated
+STU-3028,Richard,Smith,22,Non-binary,Business,Sophomore,3.71,66,88,Yes,Basketball,Dr. Green,2020-12-07,Graduated
+STU-3029,David,Miller,19,Female,Data Science,Junior,1.75,58,94,No,Coding Club,Dr. Evans,2022-05-04,Graduated
+STU-3030,Susan,Thomas,22,Female,Mechanical Engineering,Junior,2.47,26,85,No,Debate Team,Dr. Foster,2021-05-02,Active
+STU-3031,Susan,Jones,18,Non-binary,Mathematics,Senior,1.79,35,79,No,Robotics,Dr. Evans,2022-09-25,Probation
+STU-3032,Sophia,Garcia,22,Non-binary,Mechanical Engineering,Senior,1.96,100,100,No,Basketball,Dr. Brown,2021-08-19,Active
+STU-3033,Susan,Smith,18,Female,Mechanical Engineering,Sophomore,3.6,122,99,Yes,None,Dr. Evans,2023-06-02,Probation
+STU-3034,Mason,Martin,21,Female,Mechanical Engineering,Freshman,2.52,102,91,No,Chess Club,Dr. Green,2021-10-26,Active
+STU-3035,Jennifer,Martin,22,Non-binary,Art,Freshman,1.58,48,74,No,Debate Team,Dr. Clark,2022-08-22,Graduated
+STU-3036,Joseph,Thompson,24,Male,Mathematics,Freshman,3.56,104,62,No,Soccer,Dr. Clark,2020-10-06,Probation
+STU-3037,Patricia,Davis,21,Male,Biology,Senior,2.16,122,65,No,Robotics,Dr. Evans,2021-05-13,Active
+STU-3038,Karen,Martinez,22,Non-binary,Mechanical Engineering,Junior,3.53,56,63,No,Basketball,Dr. Clark,2022-01-30,Graduated
+STU-3039,Emma,Jackson,19,Male,Psychology,Sophomore,3.96,108,66,No,Robotics,Dr. Brown,2021-05-27,Active
+STU-3040,Charles,Martinez,21,Non-binary,Mathematics,Senior,3.57,30,85,Yes,Coding Club,Dr. Adams,2021-02-07,Probation
+STU-3041,Susan,Martin,23,Female,Biology,Freshman,2.79,124,77,No,Debate Team,Dr. Foster,2023-02-25,Active
+STU-3042,Jessica,Miller,21,Female,Psychology,Junior,3.63,39,94,Yes,Basketball,Dr. Clark,2021-04-25,Graduated
+STU-3043,Mary,Johnson,23,Male,Art,Freshman,3.63,109,81,No,Debate Team,Dr. Green,2021-06-20,Probation
+STU-3044,Sophia,Jones,19,Non-binary,Psychology,Sophomore,2.64,100,87,No,Basketball,Dr. Adams,2022-08-09,Active
+STU-3045,Ethan,Anderson,18,Non-binary,Business,Senior,1.71,62,70,No,Debate Team,Dr. Foster,2021-02-11,Active
+STU-3046,Linda,Perez,19,Non-binary,Art,Freshman,2.03,87,64,No,Chess Club,Dr. Foster,2022-07-05,Active
+STU-3047,Sarah,Williams,23,Male,Mathematics,Freshman,3.97,28,87,Yes,Debate Team,Dr. Adams,2022-05-04,Active
+STU-3048,Mason,Jones,21,Non-binary,Mechanical Engineering,Freshman,3.7,111,68,No,Chess Club,Dr. Evans,2021-07-03,Probation
+STU-3049,Robert,Jackson,23,Non-binary,Art,Sophomore,2.38,107,73,No,Debate Team,Dr. Adams,2021-05-14,Active
+STU-3050,David,Jones,20,Male,Psychology,Freshman,2.97,66,84,No,Soccer,Dr. Evans,2022-03-07,Active
+STU-3051,Lisa,Perez,19,Male,Mathematics,Junior,3.62,78,79,No,Chess Club,Dr. Green,2021-12-04,Probation
+STU-3052,Lisa,Williams,21,Non-binary,Computer Science,Junior,2.46,93,75,No,Drama,Dr. Brown,2022-10-02,Graduated
+STU-3053,Noah,Lee,23,Male,Computer Science,Freshman,2.55,34,94,No,Chess Club,Dr. Clark,2021-10-16,Active
+STU-3054,Ethan,Perez,22,Female,Mathematics,Senior,3.81,48,85,Yes,Debate Team,Dr. Foster,2021-06-09,Active
+STU-3055,Michael,Jones,22,Non-binary,Biology,Senior,1.71,129,65,No,Debate Team,Dr. Clark,2023-01-13,Active
+STU-3056,Joseph,Harris,21,Non-binary,Computer Science,Junior,1.64,26,65,No,Robotics,Dr. Adams,2020-08-26,Active
+STU-3057,Thomas,Perez,21,Non-binary,Psychology,Sophomore,3.25,56,70,No,Drama,Dr. Brown,2022-02-02,Active
+STU-3058,Jessica,Martinez,20,Non-binary,Data Science,Junior,3.43,115,61,No,Debate Team,Dr. Davis,2023-02-19,Graduated
+STU-3059,Jennifer,Thomas,24,Male,Psychology,Freshman,2.4,84,91,No,Debate Team,Dr. Brown,2023-06-09,Active
+STU-3060,Sarah,Thomas,19,Female,Mechanical Engineering,Sophomore,1.61,17,60,No,Chess Club,Dr. Evans,2022-12-07,Active
+STU-3061,William,Williams,23,Non-binary,Biology,Freshman,2.3,52,86,No,Chess Club,Dr. Brown,2021-11-01,Graduated
+STU-3062,Joseph,Anderson,18,Female,Biology,Freshman,3.95,124,85,Yes,Coding Club,Dr. Adams,2022-08-26,Active
+STU-3063,Linda,Martin,23,Female,Art,Sophomore,2.23,91,79,No,Soccer,Dr. Brown,2020-08-14,Probation
+STU-3064,Mason,Smith,20,Female,Computer Science,Senior,1.56,93,94,No,Basketball,Dr. Adams,2021-09-25,Graduated
+STU-3065,Robert,Martinez,21,Male,Computer Science,Sophomore,3.96,19,86,Yes,None,Dr. Foster,2022-09-02,Probation
+STU-3066,Thomas,Jones,22,Non-binary,Mathematics,Freshman,3.94,24,65,No,Chess Club,Dr. Davis,2021-04-25,Active
+STU-3067,Liam,Taylor,24,Female,Art,Junior,2.23,62,80,No,Soccer,Dr. Adams,2021-09-20,Active
+STU-3068,Patricia,Garcia,18,Female,Art,Junior,3.45,31,97,No,None,Dr. Adams,2022-08-04,Active
+STU-3069,Patricia,Williams,20,Male,Psychology,Freshman,2.63,121,89,No,Soccer,Dr. Green,2022-06-03,Active
+STU-3070,Thomas,Johnson,20,Non-binary,Psychology,Junior,1.73,62,75,No,Robotics,Dr. Adams,2022-11-07,Probation
+STU-3071,Joseph,Brown,19,Male,Data Science,Freshman,2.89,24,95,No,Chess Club,Dr. Green,2021-10-30,Active
+STU-3072,Ethan,Williams,20,Non-binary,Psychology,Freshman,2.0,99,85,No,Chess Club,Dr. Adams,2021-09-09,Probation
+STU-3073,Emma,Taylor,24,Male,Computer Science,Senior,3.52,118,65,No,Chess Club,Dr. Brown,2023-01-05,Probation
+STU-3074,Jennifer,Thomas,23,Male,Mechanical Engineering,Junior,2.74,66,84,No,Basketball,Dr. Davis,2021-06-01,Active
+STU-3075,Barbara,Lee,19,Female,Art,Freshman,3.04,94,99,No,Debate Team,Dr. Clark,2022-09-24,Active
+STU-3076,Emma,Thompson,19,Male,Mathematics,Junior,2.55,92,93,No,Coding Club,Dr. Evans,2023-04-20,Active
+STU-3077,William,Garcia,20,Male,Biology,Sophomore,3.78,61,92,Yes,Chess Club,Dr. Green,2022-02-27,Active
+STU-3078,Noah,White,22,Male,Mechanical Engineering,Freshman,3.52,57,90,Yes,Soccer,Dr. Foster,2021-12-07,Active
+STU-3079,Charles,Moore,24,Female,Mechanical Engineering,Sophomore,2.83,40,63,No,Soccer,Dr. Evans,2022-05-14,Active
+STU-3080,Susan,White,23,Non-binary,Mechanical Engineering,Sophomore,3.78,101,61,No,Coding Club,Dr. Evans,2022-04-25,Active
+STU-3081,Lisa,Davis,18,Male,Art,Freshman,2.73,41,65,No,Drama,Dr. Evans,2021-09-17,Active
+STU-3082,Isabella,Taylor,24,Male,Computer Science,Sophomore,2.35,120,71,No,Robotics,Dr. Green,2021-03-16,Graduated
+STU-3083,Olivia,Moore,20,Non-binary,Data Science,Junior,3.65,102,64,No,Basketball,Dr. Clark,2021-05-07,Active
+STU-3084,Sarah,Taylor,24,Male,Biology,Sophomore,3.33,93,87,No,Robotics,Dr. Davis,2022-04-21,Active
+STU-3085,Richard,White,23,Male,Mechanical Engineering,Junior,1.82,85,60,No,Soccer,Dr. Foster,2021-03-02,Probation
+STU-3086,David,Garcia,19,Non-binary,Data Science,Junior,1.85,56,64,No,Coding Club,Dr. Adams,2022-01-26,Active
+STU-3087,Emma,Brown,20,Non-binary,Computer Science,Freshman,2.12,44,64,No,None,Dr. Davis,2022-12-08,Active
+STU-3088,Karen,Moore,21,Male,Art,Sophomore,3.71,56,91,Yes,Robotics,Dr. Davis,2020-12-29,Active
+STU-3089,John,Taylor,20,Male,Mathematics,Sophomore,2.24,25,80,No,Debate Team,Dr. Evans,2021-02-07,Active
+STU-3090,James,Jackson,21,Non-binary,Mechanical Engineering,Senior,2.99,102,99,No,Robotics,Dr. Adams,2021-02-24,Active
+STU-3091,Karen,Thompson,21,Female,Psychology,Junior,2.01,101,72,No,Soccer,Dr. Adams,2020-11-10,Probation
+STU-3092,Susan,Smith,19,Female,Data Science,Junior,2.93,18,91,No,Coding Club,Dr. Brown,2021-02-15,Active
+STU-3093,Sarah,Brown,20,Female,Mathematics,Senior,2.02,22,100,No,Coding Club,Dr. Foster,2022-01-25,Active
+STU-3094,Logan,Moore,19,Female,Mechanical Engineering,Senior,3.1,59,84,No,Chess Club,Dr. Clark,2023-01-18,Probation
+STU-3095,Robert,Brown,22,Male,Biology,Senior,2.16,19,77,No,Soccer,Dr. Evans,2020-12-03,Probation
+STU-3096,Isabella,Lee,22,Non-binary,Business,Senior,3.55,99,86,Yes,Basketball,Dr. Adams,2022-10-18,Active
+STU-3097,Olivia,Harris,24,Male,Data Science,Senior,2.76,85,93,No,Robotics,Dr. Brown,2021-10-08,Active
+STU-3098,Jessica,Miller,18,Non-binary,Mechanical Engineering,Junior,1.82,99,87,No,Drama,Dr. Foster,2020-12-16,Active
+STU-3099,Isabella,Martinez,22,Non-binary,Art,Freshman,2.47,53,85,No,None,Dr. Adams,2022-11-27,Active
+STU-3100,Patricia,Brown,22,Non-binary,Data Science,Junior,1.87,109,97,No,Drama,Dr. Davis,2022-01-23,Probation
+STU-3101,Mary,Garcia,22,Female,Mathematics,Sophomore,3.14,72,96,No,None,Dr. Adams,2022-10-20,Active
+STU-3102,Sophia,Martinez,23,Female,Computer Science,Junior,3.23,72,63,No,Basketball,Dr. Clark,2022-02-26,Probation
+STU-3103,Robert,Anderson,24,Non-binary,Art,Junior,3.65,41,66,No,Basketball,Dr. Foster,2022-12-02,Graduated
+STU-3104,Sophia,Jackson,21,Non-binary,Art,Junior,3.11,39,72,No,Chess Club,Dr. Evans,2021-06-22,Active
+STU-3105,Noah,Perez,21,Non-binary,Computer Science,Sophomore,2.28,29,92,No,Soccer,Dr. Green,2021-09-16,Active
+STU-3106,Susan,Miller,18,Female,Biology,Senior,2.12,129,89,No,None,Dr. Foster,2021-04-11,Active
+STU-3107,Jennifer,Lee,22,Non-binary,Biology,Junior,2.1,69,91,No,Robotics,Dr. Green,2022-01-12,Active
+STU-3108,Isabella,White,18,Male,Business,Sophomore,2.21,32,84,No,Soccer,Dr. Clark,2022-11-17,Graduated
+STU-3109,Robert,Garcia,21,Non-binary,Computer Science,Sophomore,1.55,128,60,No,Basketball,Dr. Evans,2022-04-18,Active
+STU-3110,Joseph,Martinez,24,Male,Art,Junior,2.56,56,84,No,None,Dr. Evans,2021-02-26,Active
+STU-3111,Lisa,Harris,22,Female,Psychology,Freshman,2.78,94,83,No,Coding Club,Dr. Adams,2022-06-20,Active
+STU-3112,Liam,Anderson,20,Male,Mechanical Engineering,Sophomore,3.1,95,77,No,Chess Club,Dr. Green,2022-11-06,Active
+STU-3113,Barbara,Martinez,23,Female,Mathematics,Senior,3.2,75,61,No,Chess Club,Dr. Evans,2021-08-24,Active
+STU-3114,Ethan,Lee,23,Non-binary,Biology,Junior,3.32,80,74,No,Robotics,Dr. Green,2021-08-06,Active
+STU-3115,Ava,Thompson,23,Male,Biology,Freshman,1.74,45,68,No,Soccer,Dr. Clark,2021-11-01,Active
+STU-3116,Charles,Anderson,20,Female,Data Science,Senior,2.55,45,81,No,Chess Club,Dr. Green,2020-12-24,Probation
+STU-3117,Olivia,Moore,18,Non-binary,Psychology,Senior,3.72,123,92,Yes,Chess Club,Dr. Green,2021-06-05,Active
+STU-3118,Logan,Martin,21,Male,Biology,Sophomore,3.98,84,81,No,Debate Team,Dr. Davis,2022-06-13,Active
+STU-3119,William,Miller,18,Male,Mechanical Engineering,Senior,2.28,69,63,No,Debate Team,Dr. Brown,2023-01-06,Probation
+STU-3120,Mary,Thompson,21,Male,Biology,Freshman,2.51,12,90,No,Drama,Dr. Green,2023-07-24,Active

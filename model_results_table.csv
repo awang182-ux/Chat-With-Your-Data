@@ -1,0 +1,25 @@
+model,dataset,question,success
+nvidia/nemotron-3-nano-30b-a3b:free,sales_data,Which Region has the highest total Sales?,True
+google/gemma-4-26b-a4b-it:free,sales_data,Which Region has the highest total Sales?,True
+openai/gpt-oss-120b:free,sales_data,Which Region has the highest total Sales?,True
+meta-llama/llama-3.2-3b-instruct:free,sales_data,Which Region has the highest total Sales?,False
+nvidia/nemotron-3-nano-30b-a3b:free,sales_data,What is the total Profit by Category?,True
+google/gemma-4-26b-a4b-it:free,sales_data,What is the total Profit by Category?,False
+openai/gpt-oss-120b:free,sales_data,What is the total Profit by Category?,True
+meta-llama/llama-3.2-3b-instruct:free,sales_data,What is the total Profit by Category?,False
+nvidia/nemotron-3-nano-30b-a3b:free,student_data,What is the average GPA by Major?,True
+google/gemma-4-26b-a4b-it:free,student_data,What is the average GPA by Major?,False
+openai/gpt-oss-120b:free,student_data,What is the average GPA by Major?,True
+meta-llama/llama-3.2-3b-instruct:free,student_data,What is the average GPA by Major?,False
+nvidia/nemotron-3-nano-30b-a3b:free,student_data,Rank student GPA from highest to lowest,True
+google/gemma-4-26b-a4b-it:free,student_data,Rank student GPA from highest to lowest,False
+openai/gpt-oss-120b:free,student_data,Rank student GPA from highest to lowest,True
+meta-llama/llama-3.2-3b-instruct:free,student_data,Rank student GPA from highest to lowest,False
+nvidia/nemotron-3-nano-30b-a3b:free,orders_data,What is the total Amount by Customer?,True
+google/gemma-4-26b-a4b-it:free,orders_data,What is the total Amount by Customer?,False
+openai/gpt-oss-120b:free,orders_data,What is the total Amount by Customer?,True
+meta-llama/llama-3.2-3b-instruct:free,orders_data,What is the total Amount by Customer?,False
+nvidia/nemotron-3-nano-30b-a3b:free,orders_data,Which Customer spent the most?,True
+google/gemma-4-26b-a4b-it:free,orders_data,Which Customer spent the most?,False
+openai/gpt-oss-120b:free,orders_data,Which Customer spent the most?,False
+meta-llama/llama-3.2-3b-instruct:free,orders_data,Which Customer spent the most?,False

@@ -1,9 +1,121 @@
-Region,Sales,Profit,Category
-West,200,50,Tech
-East,150,40,Furniture
-West,300,80,Tech
-South,250,60,Office
-East,180,45,Office
-North,220,55,Tech
-South,270,65,Furniture
-West,310,90,Office
+sale_id,date,rep_name,city,region,product,channel,units_sold,unit_price,revenue,cogs,profit,target_met,quarter
+SALE-2001,2023-09-04,Emma Brown,Philadelphia,North,Enterprise Pack,Online,43,264.39,11368.77,6791.78,4576.99,No,Q2
+SALE-2002,2023-10-13,Frank Wilson,Los Angeles,West,Widget A,Phone,174,726.96,126491.04,81458.04,45033.0,Yes,Q4
+SALE-2003,2023-10-27,Grace Taylor,Philadelphia,North,Gadget X,Partner,95,676.09,64228.55,35435.03,28793.52,No,Q3
+SALE-2004,2023-08-26,Emma Brown,San Antonio,North,Widget C,Online,157,229.14,35974.98,13273.51,22701.47,Yes,Q3
+SALE-2005,2023-10-03,Carol Smith,San Antonio,West,Service Pro,Direct,127,124.95,15868.65,6671.82,9196.83,Yes,Q2
+SALE-2006,2023-11-12,Grace Taylor,Phoenix,North,Service Pro,In-Store,107,658.36,70444.52,42274.31,28170.21,Yes,Q2
+SALE-2007,2023-10-06,Frank Wilson,New York,West,Gadget Y,In-Store,93,108.35,10076.55,5599.58,4476.97,Yes,Q4
+SALE-2008,2023-11-02,Alice Johnson,New York,East,Gadget X,In-Store,24,666.13,15987.12,8673.19,7313.93,Yes,Q2
+SALE-2009,2023-10-28,David Lee,Houston,East,Widget C,Direct,18,831.51,14967.18,7726.99,7240.19,No,Q2
+SALE-2010,2023-02-26,Alice Johnson,Chicago,North,Service Pro,In-Store,34,544.8,18523.2,10920.43,7602.77,Yes,Q1
+SALE-2011,2023-08-04,Bob Martinez,Los Angeles,West,Enterprise Pack,Phone,45,272.7,12271.5,4761.68,7509.82,Yes,Q1
+SALE-2012,2023-01-23,Emma Brown,San Diego,North,Widget A,Partner,116,508.79,59019.64,37396.3,21623.34,Yes,Q4
+SALE-2013,2023-08-16,Bob Martinez,Los Angeles,East,Widget C,Online,176,116.87,20569.12,11595.23,8973.89,No,Q3
+SALE-2014,2023-08-21,Grace Taylor,Los Angeles,North,Gadget X,Partner,98,994.67,97477.66,49632.41,47845.25,Yes,Q2
+SALE-2015,2023-08-01,Bob Martinez,Philadelphia,West,Service Pro,Phone,106,345.53,36626.18,17802.14,18824.04,Yes,Q2
+SALE-2016,2023-02-13,Bob Martinez,San Antonio,North,Service Pro,In-Store,176,923.75,162580.0,60177.36,102402.64,Yes,Q3
+SALE-2017,2023-12-07,Grace Taylor,New York,East,Gadget Y,Phone,172,131.0,22532.0,10276.38,12255.62,No,Q2
+SALE-2018,2023-02-25,Frank Wilson,Dallas,East,Widget B,Phone,40,660.16,26406.4,11018.69,15387.71,Yes,Q4
+SALE-2019,2023-11-11,Alice Johnson,San Jose,East,Widget A,In-Store,144,974.79,140369.76,83594.13,56775.63,No,Q3
+SALE-2020,2023-03-15,Grace Taylor,Los Angeles,South,Widget A,Online,87,357.5,31102.5,12578.52,18523.98,Yes,Q2
+SALE-2021,2023-07-09,Emma Brown,Philadelphia,Central,Widget B,Online,97,425.62,41285.14,18671.98,22613.16,No,Q1
+SALE-2022,2023-08-06,Henry Davis,San Jose,West,Service Basic,Phone,173,90.76,15701.48,7582.78,8118.7,No,Q1
+SALE-2023,2023-12-14,Henry Davis,Dallas,East,Widget A,In-Store,89,435.6,38768.4,16863.24,21905.16,Yes,Q1
+SALE-2024,2023-03-12,Emma Brown,Phoenix,East,Widget B,Online,2,212.37,424.74,269.11,155.63,Yes,Q4
+SALE-2025,2023-04-28,Frank Wilson,Los Angeles,West,Widget A,Partner,45,137.88,6204.6,3162.95,3041.65,No,Q1
+SALE-2026,2023-12-30,Grace Taylor,Phoenix,North,Service Basic,Online,81,579.99,46979.19,24524.07,22455.12,Yes,Q2
+SALE-2027,2023-07-05,Bob Martinez,San Antonio,North,Gadget X,Partner,159,465.49,74012.91,41216.53,32796.38,Yes,Q1
+SALE-2028,2023-04-24,Frank Wilson,Chicago,North,Widget B,Direct,102,871.81,88924.62,51019.74,37904.88,Yes,Q3
+SALE-2029,2023-03-17,David Lee,Los Angeles,South,Gadget Y,In-Store,90,730.1,65709.0,39141.84,26567.16,No,Q2
+SALE-2030,2023-11-18,Henry Davis,San Diego,Central,Enterprise Pack,Direct,195,761.55,148502.25,55332.83,93169.42,Yes,Q3
+SALE-2031,2023-08-29,Henry Davis,Phoenix,East,Widget A,Phone,161,322.97,51998.17,25059.42,26938.75,Yes,Q3
+SALE-2032,2023-05-27,Bob Martinez,Los Angeles,Central,Service Basic,Partner,119,457.38,54428.22,19978.8,34449.42,Yes,Q1
+SALE-2033,2023-04-07,Frank Wilson,San Jose,West,Widget C,Online,116,909.95,105554.2,55046.2,50508.0,Yes,Q3
+SALE-2034,2023-01-21,David Lee,San Diego,West,Widget C,Phone,183,93.48,17106.84,9303.35,7803.49,Yes,Q3
+SALE-2035,2023-11-03,Alice Johnson,Philadelphia,North,Service Pro,Online,100,414.67,41467.0,18722.77,22744.23,Yes,Q4
+SALE-2036,2023-11-05,Carol Smith,Philadelphia,North,Widget C,Phone,73,259.47,18941.31,11468.39,7472.92,Yes,Q4
+SALE-2037,2023-06-08,Grace Taylor,Philadelphia,South,Widget B,Partner,34,599.08,20368.72,12860.82,7507.9,Yes,Q1
+SALE-2038,2023-06-24,Henry Davis,Houston,South,Widget C,In-Store,93,315.77,29366.61,18658.1,10708.51,No,Q1
+SALE-2039,2023-09-27,Alice Johnson,Philadelphia,Central,Widget C,Direct,130,773.16,100510.8,60360.35,40150.45,Yes,Q2
+SALE-2040,2023-03-26,Henry Davis,New York,West,Service Pro,In-Store,47,833.02,39151.94,22760.17,16391.77,Yes,Q3
+SALE-2041,2023-10-01,David Lee,Phoenix,West,Gadget X,Phone,193,751.04,144950.72,70254.48,74696.24,Yes,Q4
+SALE-2042,2023-09-15,Grace Taylor,Chicago,South,Widget C,Phone,119,771.73,91835.87,53580.46,38255.41,No,Q4
+SALE-2043,2023-09-22,Bob Martinez,Phoenix,North,Widget C,Phone,96,558.99,53663.04,20433.65,33229.39,Yes,Q2
+SALE-2044,2023-08-19,Frank Wilson,New York,West,Widget A,Partner,112,100.79,11288.48,7034.43,4254.05,Yes,Q2
+SALE-2045,2023-01-15,Frank Wilson,Los Angeles,East,Widget C,In-Store,99,994.57,98462.43,45536.29,52926.14,No,Q4
+SALE-2046,2023-08-29,Henry Davis,San Jose,North,Widget B,Online,179,832.79,149069.41,86110.29,62959.12,No,Q2
+SALE-2047,2023-08-05,Bob Martinez,Phoenix,South,Gadget Y,Online,141,940.81,132654.21,70660.13,61994.08,No,Q4
+SALE-2048,2023-02-26,Henry Davis,San Jose,Central,Widget A,Direct,164,795.95,130535.8,63588.44,66947.36,Yes,Q2
+SALE-2049,2023-05-04,Grace Taylor,Chicago,North,Service Pro,Online,75,434.94,32620.5,17433.79,15186.71,Yes,Q1
+SALE-2050,2023-07-18,Frank Wilson,Phoenix,North,Service Pro,Online,100,874.59,87459.0,31752.89,55706.11,Yes,Q1
+SALE-2051,2023-03-10,Alice Johnson,Philadelphia,Central,Service Pro,In-Store,198,586.07,116041.86,66956.58,49085.28,Yes,Q4
+SALE-2052,2023-03-11,Bob Martinez,San Diego,North,Gadget Y,In-Store,179,483.74,86589.46,35041.32,51548.14,No,Q2
+SALE-2053,2023-07-23,Henry Davis,Phoenix,North,Gadget X,Phone,11,322.43,3546.73,1571.28,1975.45,Yes,Q1
+SALE-2054,2023-07-08,Grace Taylor,San Antonio,West,Service Basic,Phone,168,338.6,56884.8,22033.9,34850.9,Yes,Q4
+SALE-2055,2023-09-23,Emma Brown,Los Angeles,West,Widget B,Partner,178,502.54,89452.12,56112.7,33339.42,Yes,Q2
+SALE-2056,2023-06-17,Emma Brown,Phoenix,West,Service Basic,In-Store,140,300.82,42114.8,16036.45,26078.35,Yes,Q3
+SALE-2057,2023-06-30,Grace Taylor,Phoenix,North,Widget B,Partner,115,51.92,5970.8,3648.23,2322.57,Yes,Q2
+SALE-2058,2023-08-13,Alice Johnson,Chicago,North,Gadget X,Phone,8,151.34,1210.72,644.43,566.29,Yes,Q1
+SALE-2059,2023-07-09,Frank Wilson,San Diego,North,Widget C,Direct,155,161.89,25092.95,12169.5,12923.45,Yes,Q3
+SALE-2060,2023-01-14,Carol Smith,San Diego,Central,Service Basic,Direct,167,285.89,47743.63,30467.88,17275.75,No,Q3
+SALE-2061,2023-05-27,Henry Davis,Houston,North,Widget C,Online,181,451.8,81775.8,53065.1,28710.7,Yes,Q4
+SALE-2062,2023-06-13,Frank Wilson,Los Angeles,Central,Gadget Y,Phone,23,812.4,18685.2,11963.54,6721.66,Yes,Q2
+SALE-2063,2023-04-13,Carol Smith,Houston,West,Widget A,Phone,93,513.66,47770.38,18458.89,29311.49,Yes,Q3
+SALE-2064,2023-11-10,Bob Martinez,Los Angeles,East,Service Basic,Partner,120,805.62,96674.4,49835.08,46839.32,Yes,Q4
+SALE-2065,2023-11-25,Bob Martinez,San Diego,West,Service Pro,In-Store,148,83.0,12284.0,7882.81,4401.19,Yes,Q2
+SALE-2066,2023-01-29,Bob Martinez,Dallas,South,Gadget Y,In-Store,197,966.59,190418.23,91359.9,99058.33,No,Q2
+SALE-2067,2023-05-26,Bob Martinez,Phoenix,South,Gadget Y,In-Store,89,948.0,84372.0,42664.33,41707.67,Yes,Q1
+SALE-2068,2023-10-25,Carol Smith,Chicago,Central,Service Pro,Direct,129,644.57,83149.53,43864.91,39284.62,No,Q1
+SALE-2069,2023-10-23,Emma Brown,Houston,Central,Service Basic,Direct,21,55.0,1155.0,626.51,528.49,Yes,Q4
+SALE-2070,2023-06-04,Henry Davis,Houston,West,Gadget Y,Partner,161,550.11,88567.71,48054.38,40513.33,No,Q1
+SALE-2071,2023-04-15,Frank Wilson,San Jose,South,Service Pro,Phone,41,445.2,18253.2,9040.36,9212.84,Yes,Q3
+SALE-2072,2023-10-15,Bob Martinez,Philadelphia,South,Enterprise Pack,Online,103,139.45,14363.35,6623.83,7739.52,No,Q2
+SALE-2073,2023-07-16,Grace Taylor,Houston,South,Service Pro,Direct,37,105.83,3915.71,1711.41,2204.3,Yes,Q2
+SALE-2074,2023-08-28,Henry Davis,Phoenix,West,Widget A,Online,196,167.74,32877.04,21330.32,11546.72,Yes,Q4
+SALE-2075,2023-01-26,Emma Brown,San Diego,Central,Enterprise Pack,Phone,62,222.98,13824.76,6302.27,7522.49,Yes,Q1
+SALE-2076,2023-07-07,Grace Taylor,Philadelphia,North,Service Basic,Online,111,142.59,15827.49,6795.4,9032.09,Yes,Q2
+SALE-2077,2023-09-16,Henry Davis,Dallas,East,Widget B,In-Store,93,557.68,51864.24,19296.58,32567.66,Yes,Q4
+SALE-2078,2023-07-07,Carol Smith,Houston,Central,Service Basic,Direct,96,796.94,76506.24,34559.83,41946.41,No,Q1
+SALE-2079,2023-09-23,Henry Davis,Chicago,Central,Widget C,Phone,36,716.45,25792.2,15248.08,10544.12,Yes,Q3
+SALE-2080,2023-06-03,Frank Wilson,Dallas,Central,Enterprise Pack,Direct,42,399.02,16758.84,8965.14,7793.7,No,Q1
+SALE-2081,2023-08-02,Emma Brown,New York,Central,Enterprise Pack,Phone,95,337.92,32102.4,12291.41,19810.99,Yes,Q2
+SALE-2082,2023-09-26,Grace Taylor,Chicago,South,Widget A,Direct,185,60.83,11253.55,5560.77,5692.78,Yes,Q1
+SALE-2083,2023-03-19,Grace Taylor,Houston,West,Enterprise Pack,Online,49,28.74,1408.26,625.42,782.84,Yes,Q2
+SALE-2084,2023-09-27,Grace Taylor,Philadelphia,South,Enterprise Pack,Direct,144,331.79,47777.76,26214.13,21563.63,Yes,Q3
+SALE-2085,2023-11-26,Emma Brown,San Jose,West,Gadget X,In-Store,174,774.26,134721.24,76289.59,58431.65,No,Q3
+SALE-2086,2023-05-28,David Lee,San Diego,East,Enterprise Pack,Phone,58,942.06,54639.48,35224.88,19414.6,Yes,Q3
+SALE-2087,2023-07-14,Grace Taylor,Philadelphia,South,Gadget Y,Online,74,130.65,9668.1,5346.33,4321.77,No,Q1
+SALE-2088,2023-09-03,David Lee,Houston,Central,Gadget Y,Direct,89,924.76,82303.64,45002.94,37300.7,Yes,Q2
+SALE-2089,2023-05-05,Alice Johnson,Dallas,South,Gadget X,Online,28,619.51,17346.28,9125.0,8221.28,No,Q3
+SALE-2090,2023-03-12,Alice Johnson,Dallas,South,Service Basic,Partner,184,477.67,87891.28,48723.2,39168.08,Yes,Q2
+SALE-2091,2023-11-27,Alice Johnson,Los Angeles,Central,Gadget X,Direct,194,964.26,187066.44,83497.16,103569.28,Yes,Q1
+SALE-2092,2023-01-19,Grace Taylor,San Diego,South,Gadget Y,Online,45,423.7,19066.5,11464.33,7602.17,No,Q1
+SALE-2093,2023-10-06,Henry Davis,Chicago,Central,Enterprise Pack,Phone,86,291.71,25087.06,16224.55,8862.51,No,Q1
+SALE-2094,2023-05-12,Carol Smith,New York,East,Gadget Y,Direct,85,170.86,14523.1,7082.54,7440.56,Yes,Q2
+SALE-2095,2023-07-27,Grace Taylor,Dallas,East,Widget B,Partner,45,614.83,27667.35,14985.13,12682.22,Yes,Q2
+SALE-2096,2023-01-04,Emma Brown,San Antonio,South,Enterprise Pack,Phone,36,482.67,17376.12,10959.95,6416.17,Yes,Q3
+SALE-2097,2023-12-01,Frank Wilson,Houston,North,Widget B,Partner,150,725.64,108846.0,38469.52,70376.48,Yes,Q4
+SALE-2098,2023-12-27,Emma Brown,Los Angeles,East,Service Pro,Direct,176,507.49,89318.24,55246.5,34071.74,No,Q2
+SALE-2099,2023-11-07,Frank Wilson,San Antonio,Central,Enterprise Pack,Direct,123,161.64,19881.72,11418.48,8463.24,Yes,Q2
+SALE-2100,2023-02-11,Henry Davis,Dallas,East,Widget B,Direct,196,254.98,49976.08,28807.31,21168.77,No,Q2
+SALE-2101,2023-09-24,Henry Davis,Los Angeles,South,Enterprise Pack,Online,147,541.28,79568.16,31776.43,47791.73,Yes,Q4
+SALE-2102,2023-08-22,Alice Johnson,Dallas,West,Gadget Y,Online,15,458.89,6883.35,3469.03,3414.32,Yes,Q1
+SALE-2103,2023-08-05,Frank Wilson,Los Angeles,Central,Widget A,Online,191,225.71,43110.61,16033.22,27077.39,Yes,Q4
+SALE-2104,2023-03-11,Grace Taylor,Philadelphia,West,Enterprise Pack,Partner,9,294.21,2647.89,1069.73,1578.16,Yes,Q2
+SALE-2105,2023-10-03,Grace Taylor,Dallas,South,Gadget X,Online,168,861.67,144760.56,55818.22,88942.34,Yes,Q3
+SALE-2106,2023-09-30,Grace Taylor,Houston,South,Enterprise Pack,Phone,119,676.75,80533.25,41340.42,39192.83,No,Q2
+SALE-2107,2023-12-05,Grace Taylor,San Jose,North,Gadget X,In-Store,186,767.83,142816.38,51366.08,91450.3,No,Q1
+SALE-2108,2023-01-25,David Lee,New York,West,Enterprise Pack,In-Store,115,601.8,69207.0,38824.15,30382.85,Yes,Q1
+SALE-2109,2023-10-22,Frank Wilson,San Jose,Central,Service Pro,In-Store,36,508.85,18318.6,8001.18,10317.42,Yes,Q2
+SALE-2110,2023-05-21,Alice Johnson,Dallas,Central,Widget C,Partner,170,526.03,89425.1,42393.58,47031.52,Yes,Q1
+SALE-2111,2023-09-26,Frank Wilson,San Antonio,West,Widget C,Phone,89,942.16,83852.24,46236.36,37615.88,Yes,Q4
+SALE-2112,2023-12-29,Carol Smith,San Diego,North,Service Basic,Partner,62,850.84,52752.08,23222.57,29529.51,Yes,Q2
+SALE-2113,2023-11-28,Bob Martinez,San Diego,East,Widget B,Direct,100,250.42,25042.0,10292.29,14749.71,Yes,Q2
+SALE-2114,2023-11-05,Alice Johnson,Los Angeles,South,Gadget X,Partner,14,275.77,3860.78,2131.54,1729.24,No,Q3
+SALE-2115,2023-04-08,Bob Martinez,San Diego,South,Gadget X,Partner,78,957.44,74680.32,26481.65,48198.67,Yes,Q3
+SALE-2116,2023-11-29,Frank Wilson,Phoenix,East,Service Pro,Direct,199,290.22,57753.78,28292.14,29461.64,Yes,Q4
+SALE-2117,2023-06-13,David Lee,Philadelphia,East,Service Basic,Online,26,804.78,20924.28,11858.29,9065.99,Yes,Q2
+SALE-2118,2023-10-27,Grace Taylor,Phoenix,South,Gadget X,Phone,190,154.45,29345.5,12566.69,16778.81,No,Q2
+SALE-2119,2023-06-22,Emma Brown,San Diego,West,Enterprise Pack,In-Store,128,555.13,71056.64,44981.65,26074.99,Yes,Q3
+SALE-2120,2023-04-05,Alice Johnson,Dallas,North,Widget B,Online,44,148.55,6536.2,3359.37,3176.83,Yes,Q4

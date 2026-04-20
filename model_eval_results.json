@@ -1,0 +1,182 @@
+[
+  {
+    "dataset": "sales_data",
+    "question": "Which Region has the highest total Sales?",
+    "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "success": true,
+    "final_result": "North",
+    "generated_code": "result = df.groupby('region')['revenue'].sum().idxmax()"
+  },
+  {
+    "dataset": "sales_data",
+    "question": "Which Region has the highest total Sales?",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "success": true,
+    "final_result": "North",
+    "generated_code": "```python\nresult = df.groupby('region')['revenue'].sum().idxmax()\n```"
+  },
+  {
+    "dataset": "sales_data",
+    "question": "Which Region has the highest total Sales?",
+    "model": "openai/gpt-oss-120b:free",
+    "success": true,
+    "final_result": "North",
+    "generated_code": "result = df.groupby('region')['revenue'].sum().idxmax()"
+  },
+  {
+    "dataset": "sales_data",
+    "question": "Which Region has the highest total Sales?",
+    "model": "meta-llama/llama-3.2-3b-instruct:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.2-3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "sales_data",
+    "question": "What is the total Profit by Category?",
+    "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "success": true,
+    "final_result": "{'Enterprise Pack': 358646.48, 'Gadget X': 611308.63, 'Gadget Y': 404922.48, 'Service Basic': 319338.13, 'Service Pro': 454264.34, 'Widget A': 338671.3, 'Widget B': 336912.06, 'Widget C': 416795.53}",
+    "generated_code": "result = df.groupby('product')['profit'].sum()"
+  },
+  {
+    "dataset": "sales_data",
+    "question": "What is the total Profit by Category?",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "sales_data",
+    "question": "What is the total Profit by Category?",
+    "model": "openai/gpt-oss-120b:free",
+    "success": true,
+    "final_result": "{'Enterprise Pack': 358646.48, 'Gadget X': 611308.63, 'Gadget Y': 404922.48, 'Service Basic': 319338.13, 'Service Pro': 454264.34, 'Widget A': 338671.3, 'Widget B': 336912.06, 'Widget C': 416795.53}",
+    "generated_code": "result = df.groupby('product')['profit'].sum()"
+  },
+  {
+    "dataset": "sales_data",
+    "question": "What is the total Profit by Category?",
+    "model": "meta-llama/llama-3.2-3b-instruct:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.2-3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "student_data",
+    "question": "What is the average GPA by Major?",
+    "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "success": true,
+    "final_result": "{'Art': 2.705, 'Biology': 2.6473333333333335, 'Business': 2.5524999999999998, 'Computer Science': 2.4745454545454546, 'Data Science': 2.6366666666666667, 'Mathematics': 2.928636363636364, 'Mechanical Engineering': 2.7372222222222224, 'Psychology': 2.77375}",
+    "generated_code": "result = df.groupby('major')['gpa'].mean()"
+  },
+  {
+    "dataset": "student_data",
+    "question": "What is the average GPA by Major?",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "student_data",
+    "question": "What is the average GPA by Major?",
+    "model": "openai/gpt-oss-120b:free",
+    "success": true,
+    "final_result": "{'Art': 2.705, 'Biology': 2.6473333333333335, 'Business': 2.5524999999999998, 'Computer Science': 2.4745454545454546, 'Data Science': 2.6366666666666667, 'Mathematics': 2.928636363636364, 'Mechanical Engineering': 2.7372222222222224, 'Psychology': 2.77375}",
+    "generated_code": "result = df.groupby('major')['gpa'].mean()"
+  },
+  {
+    "dataset": "student_data",
+    "question": "What is the average GPA by Major?",
+    "model": "meta-llama/llama-3.2-3b-instruct:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.2-3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "student_data",
+    "question": "Rank student GPA from highest to lowest",
+    "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "success": true,
+    "final_result": "['STU-3118', 'STU-3047', 'STU-3039', 'STU-3065', 'STU-3062', 'STU-3066', 'STU-3012', 'STU-3054', 'STU-3006', 'STU-3080', 'STU-3077', 'STU-3117', 'STU-3088', 'STU-3028', 'STU-3048', 'STU-3103', 'STU-3083', 'STU-3043', 'STU-3042', 'STU-3051', 'STU-3033', 'STU-3040', 'STU-3036', 'STU-3096', 'STU-3020', 'STU-3038', 'STU-3078', 'STU-3073', 'STU-3014', 'STU-3068', 'STU-3058', 'STU-3022', 'STU-3084', 'STU-3114', 'STU-3057', 'STU-3102', 'STU-3024', 'STU-3113', 'STU-3101', 'STU-3104', 'STU-3112', 'STU-3094', 'STU-3075', 'STU-3090', 'STU-3016', 'STU-3050', 'STU-3092', 'STU-3008', 'STU-3007', 'STU-3071', 'STU-3005', 'STU-3079', 'STU-3041', 'STU-3111', 'STU-3097', 'STU-3074', 'STU-3081', 'STU-3015', 'STU-3010', 'STU-3044', 'STU-3069', 'STU-3021', 'STU-3110', 'STU-3076', 'STU-3053', 'STU-3116', 'STU-3034', 'STU-3120', 'STU-3099', 'STU-3030', 'STU-3052', 'STU-3004', 'STU-3059', 'STU-3049', 'STU-3082', 'STU-3017', 'STU-3061', 'STU-3119', 'STU-3025', 'STU-3105', 'STU-3089', 'STU-3067', 'STU-3063', 'STU-3018', 'STU-3108', 'STU-3037', 'STU-3095', 'STU-3023', 'STU-3106', 'STU-3087', 'STU-3107', 'STU-3046', 'STU-3093', 'STU-3091', 'STU-3019', 'STU-3072', 'STU-3032', 'STU-3027', 'STU-3100', 'STU-3086', 'STU-3001', 'STU-3085', 'STU-3098', 'STU-3031', 'STU-3003', 'STU-3013', 'STU-3029', 'STU-3009', 'STU-3115', 'STU-3070', 'STU-3011', 'STU-3045', 'STU-3055', 'STU-3026', 'STU-3056', 'STU-3060', 'STU-3035', 'STU-3064', 'STU-3109', 'STU-3002']",
+    "generated_code": "result = df.sort_values('gpa', ascending=False)['student_id'].tolist()"
+  },
+  {
+    "dataset": "student_data",
+    "question": "Rank student GPA from highest to lowest",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "student_data",
+    "question": "Rank student GPA from highest to lowest",
+    "model": "openai/gpt-oss-120b:free",
+    "success": true,
+    "final_result": "{'STU-3118': 3.98, 'STU-3047': 3.97, 'STU-3039': 3.96, 'STU-3065': 3.96, 'STU-3062': 3.95, 'STU-3066': 3.94, 'STU-3012': 3.86, 'STU-3054': 3.81, 'STU-3006': 3.8, 'STU-3080': 3.78, 'STU-3077': 3.78, 'STU-3117': 3.72, 'STU-3088': 3.71, 'STU-3028': 3.71, 'STU-3048': 3.7, 'STU-3103': 3.65, 'STU-3083': 3.65, 'STU-3043': 3.63, 'STU-3042': 3.63, 'STU-3051': 3.62, 'STU-3033': 3.6, 'STU-3040': 3.57, 'STU-3036': 3.56, 'STU-3096': 3.55, 'STU-3020': 3.55, 'STU-3038': 3.53, 'STU-3078': 3.52, 'STU-3073': 3.52, 'STU-3014': 3.45, 'STU-3068': 3.45, 'STU-3058': 3.43, 'STU-3022': 3.42, 'STU-3084': 3.33, 'STU-3114': 3.32, 'STU-3057': 3.25, 'STU-3102': 3.23, 'STU-3024': 3.23, 'STU-3113': 3.2, 'STU-3101': 3.14, 'STU-3104': 3.11, 'STU-3112': 3.1, 'STU-3094': 3.1, 'STU-3075': 3.04, 'STU-3090': 2.99, 'STU-3016': 2.98, 'STU-3050': 2.97, 'STU-3092': 2.93, 'STU-3008': 2.91, 'STU-3007': 2.91, 'STU-3071': 2.89, 'STU-3005': 2.88, 'STU-3079': 2.83, 'STU-3041': 2.79, 'STU-3111': 2.78, 'STU-3097': 2.76, 'STU-3074': 2.74, 'STU-3081': 2.73, 'STU-3015': 2.73, 'STU-3010': 2.73, 'STU-3044': 2.64, 'STU-3069': 2.63, 'STU-3021': 2.62, 'STU-3110': 2.56, 'STU-3076': 2.55, 'STU-3053': 2.55, 'STU-3116': 2.55, 'STU-3034': 2.52, 'STU-3120': 2.51, 'STU-3099': 2.47, 'STU-3030': 2.47, 'STU-3052': 2.46, 'STU-3004': 2.43, 'STU-3059': 2.4, 'STU-3049': 2.38, 'STU-3082': 2.35, 'STU-3017': 2.34, 'STU-3061': 2.3, 'STU-3119': 2.28, 'STU-3025': 2.28, 'STU-3105': 2.28, 'STU-3089': 2.24, 'STU-3067': 2.23, 'STU-3063': 2.23, 'STU-3018': 2.23, 'STU-3108': 2.21, 'STU-3037': 2.16, 'STU-3095': 2.16, 'STU-3023': 2.15, 'STU-3106': 2.12, 'STU-3087': 2.12, 'STU-3107': 2.1, 'STU-3046': 2.03, 'STU-3093': 2.02, 'STU-3091': 2.01, 'STU-3019': 2.0, 'STU-3072': 2.0, 'STU-3032': 1.96, 'STU-3027': 1.9, 'STU-3100': 1.87, 'STU-3086': 1.85, 'STU-3001': 1.84, 'STU-3085': 1.82, 'STU-3098': 1.82, 'STU-3031': 1.79, 'STU-3003': 1.77, 'STU-3013': 1.76, 'STU-3029': 1.75, 'STU-3009': 1.74, 'STU-3115': 1.74, 'STU-3070': 1.73, 'STU-3011': 1.71, 'STU-3045': 1.71, 'STU-3055': 1.71, 'STU-3026': 1.67, 'STU-3056': 1.64, 'STU-3060': 1.61, 'STU-3035': 1.58, 'STU-3064': 1.56, 'STU-3109': 1.55, 'STU-3002': 1.54}",
+    "generated_code": "result = df.sort_values('gpa', ascending=False).set_index('student_id')['gpa']"
+  },
+  {
+    "dataset": "student_data",
+    "question": "Rank student GPA from highest to lowest",
+    "model": "meta-llama/llama-3.2-3b-instruct:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Rate limit exceeded: limit_rpm/meta-llama/llama-3.2-3b-instruct/e8440b11-29fb-4887-a222-eff9ba33dfbf. High demand for meta-llama/llama-3.2-3b-instruct:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '8', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1776645960000'}, 'provider_name': None}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "orders_data",
+    "question": "What is the total Amount by Customer?",
+    "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "success": true,
+    "final_result": "{'Alice': 5644.6, 'Bob': 3341.67, 'Carol': 11037.89, 'David': 10529.58, 'Emma': 4505.9, 'Frank': 2350.27, 'Grace': 24744.98, 'Henry': 1624.58, 'Isabella': 7999.23, 'Jack': 6903.46, 'Karen': 7568.2, 'Liam': 1670.77, 'Mia': 6093.15, 'Noah': 2993.02, 'Olivia': 13415.92, 'Paul': 5761.56, 'Quinn': 11338.57, 'Rachel': 2373.27, 'Sam': 6530.530000000001, 'Tina': 4305.86}",
+    "generated_code": "result =df.groupby('customer_name')['total_amount'].sum()"
+  },
+  {
+    "dataset": "orders_data",
+    "question": "What is the total Amount by Customer?",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "orders_data",
+    "question": "What is the total Amount by Customer?",
+    "model": "openai/gpt-oss-120b:free",
+    "success": true,
+    "final_result": "{'Alice': 5644.6, 'Bob': 3341.67, 'Carol': 11037.89, 'David': 10529.58, 'Emma': 4505.9, 'Frank': 2350.27, 'Grace': 24744.98, 'Henry': 1624.58, 'Isabella': 7999.23, 'Jack': 6903.46, 'Karen': 7568.2, 'Liam': 1670.77, 'Mia': 6093.15, 'Noah': 2993.02, 'Olivia': 13415.92, 'Paul': 5761.56, 'Quinn': 11338.57, 'Rachel': 2373.27, 'Sam': 6530.530000000001, 'Tina': 4305.86}",
+    "generated_code": "result = df.groupby('customer_name')['total_amount'].sum()"
+  },
+  {
+    "dataset": "orders_data",
+    "question": "What is the total Amount by Customer?",
+    "model": "meta-llama/llama-3.2-3b-instruct:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Rate limit exceeded: limit_rpm/meta-llama/llama-3.2-3b-instruct/e8440b11-29fb-4887-a222-eff9ba33dfbf. High demand for meta-llama/llama-3.2-3b-instruct:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '8', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1776645960000'}, 'provider_name': None}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "orders_data",
+    "question": "Which Customer spent the most?",
+    "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "success": true,
+    "final_result": "Grace",
+    "generated_code": "result= df.groupby('customer_name')['total_amount'].sum().idxmax()"
+  },
+  {
+    "dataset": "orders_data",
+    "question": "Which Customer spent the most?",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1776645960000'}, 'provider_name': None}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "orders_data",
+    "question": "Which Customer spent the most?",
+    "model": "openai/gpt-oss-120b:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1776645960000'}, 'provider_name': None}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  },
+  {
+    "dataset": "orders_data",
+    "question": "Which Customer spent the most?",
+    "model": "meta-llama/llama-3.2-3b-instruct:free",
+    "success": false,
+    "error": "Failed to call LLM API: Error code: 429 - {'error': {'message': 'Rate limit exceeded: limit_rpm/meta-llama/llama-3.2-3b-instruct/e8440b11-29fb-4887-a222-eff9ba33dfbf. High demand for meta-llama/llama-3.2-3b-instruct:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '8', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1776645960000'}, 'provider_name': None}}, 'user_id': 'user_3CYK3ri1TfxmGpBV5FTl4r02vEZ'}"
+  }
+]
